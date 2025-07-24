@@ -4,7 +4,7 @@ A modern web-based library attendance system built with Flask, designed to strea
 
 ![image](https://github.com/user-attachments/assets/bdd128d3-d202-453c-a68f-33d7b51e199f)
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 - **Student Check-In**: Quick ID-based attendance tracking with real-time student information display
@@ -44,7 +44,7 @@ A modern web-based library attendance system built with Flask, designed to strea
 - **Flash Message System**: Consistent notification system across all pages
 - **Loading Indicators**: Visual feedback for all operations
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Library-Attendance-Management/
@@ -90,7 +90,7 @@ Library-Attendance-Management/
     └── js/                     # Custom JavaScript
 ```
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -143,7 +143,7 @@ Library-Attendance-Management/
     ```
     Access the application at [http://localhost:5000](http://localhost:5000)
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ### Quick Start with Docker Hub
 
@@ -185,7 +185,7 @@ docker logs library-access-monitor
 docker exec -it library-access-monitor /bin/bash
 ```
 
-## 📱 Usage Guide
+## Usage Guide
 
 ### For Students
 1. **Check-In Process**:
@@ -271,7 +271,7 @@ DATABASE_URL=postgresql://username:password@localhost/dbname
 DATABASE_URL=mysql://username:password@localhost/dbname
 ```
 
-## 🔄 Backup & Recovery
+## Backup & Recovery
 
 ### Automatic Backup Features
 - **Deletion Backups**: Automatic backup creation when records are deleted
@@ -322,7 +322,7 @@ python app.py
 python -c "from models import db; db.create_all()"
 ```
 
-## 🚀 Recent Updates
+## Recent Updates
 
 ### Version 2.1.0 Features
 - ✅ **Modern Admin Interface**: Complete UI overhaul with responsive design
@@ -336,7 +336,7 @@ python -c "from models import db; db.create_all()"
 - ✅ **Export Improvements**: Enhanced PDF and CSV export capabilities
 - ✅ **Backup System**: Comprehensive data backup and recovery
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -353,32 +353,11 @@ We welcome contributions! Please follow these steps:
 - Ensure backward compatibility
 - Test across different browsers and devices
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/kents00/Library-Attendance/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/kents00/Library-Attendance/discussions)
-
-## 📸 Screenshots
-
-### Student Interface
-- Clean, intuitive check-in process
-- Real-time student information display
-- Mobile-responsive design
-
-### Admin Dashboard
-- Interactive charts and analytics
-- Real-time data visualization
-- Comprehensive management tools
-
-### Management Interface
-- Modern, professional design
-- Efficient data entry forms
-- Advanced filtering and search
-
----
-
-**Made with ❤️ for educational institutions worldwide**
